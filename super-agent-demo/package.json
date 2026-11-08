@@ -1,0 +1,22 @@
+{
+  "name": "super-agent-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "《Super-agent 设计探索：迈向更自主的 Agent 系统》讲义配套教学示例。零依赖 Node.js 实现，逐个机制演示双层架构、两级事件过滤、订阅直通、链式召回、推测执行、异步全双工、计算/状态/环境分离、Watchdog 与批处理压力测试。",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "all": "node demos/run-all.js",
+    "d02": "node demos/02-dual-layer.js",
+    "d03": "node demos/03-event-filter.js",
+    "d04": "node demos/04-subscription-direct.js",
+    "d05": "node demos/05-chain-of-recall.js",
+    "d06": "node demos/06-speculative.js",
+    "d07": "node demos/07-async-full-duplex.js",
+    "d08": "node demos/08-state-separation.js",
+    "d09": "node demos/09-watchdog.js",
+    "d10": "node demos/10-batching-ablation.js"
+  }
+}
